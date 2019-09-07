@@ -1,0 +1,7 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.wzb.tools.context.ApplicationContextHolder
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.wzb.tools.swagger.SwaggerConfiguration,\
+com.wzb.tools.config.SequenceConfiguration
